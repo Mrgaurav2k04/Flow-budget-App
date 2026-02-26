@@ -30,8 +30,9 @@ To run this project locally on your machine:
 1. **Clone the repo:**
    ```bash
    git clone https://github.com/Mrgaurav2k04/Flow-budget-App
-
-
+2. **Live App**
+   
+   https://flow-cashma.streamlit.app/
 
 👨‍💻 About the Developer
 Developed by Gaurav Khandelwal,a CSE Student (Class of 2027) at Lovely Professional University. Focused on building functional, real-world tools using Python and AI agents.
