@@ -1,51 +1,37 @@
-💸 FLOW (Cashma) v2.1
-Stay Lit, Stay Budgeted. FLOW is a minimalist, high-performance daily budgeting assistant designed specifically for students. Unlike complex banking apps, Flow focuses on one single metric: Your Daily Spending Power.
-🚀 The Core Concept
-Most students struggle with "End-of-Month Broke-ness." Flow solves this with a dynamic Rollover Engine.
+# 💸 FLOW (Cashma) v2.1
+### *Stay Lit, Stay Budgeted.*
 
-Daily Limits: Automatically calculates what you can spend today after subtracting your savings goal.
+**FLOW** is a minimalist, high-performance daily budgeting assistant designed specifically for students. Unlike complex banking apps, Flow focuses on one single metric: **Your Daily Spending Power.**
 
-Rollover Logic: If you spend ₹0 today, your "Spending Power" for tomorrow increases automatically.
+---
 
-Bento UI: A clean, dark-mode interface optimized for mobile use.
+## 🚀 The Core Concept
+Most students struggle with "End-of-Month Broke-ness." Flow solves this with a dynamic **Rollover Engine.**
 
-🛠️ Technical Stack
+* **Daily Limits:** Automatically calculates what you can spend today after subtracting your savings goal.
+* **Rollover Logic:** If you spend ₹0 today, your "Spending Power" for tomorrow increases automatically.
+* **Bento UI:** A clean, dark-mode interface optimized for mobile use.
+
+---
+
+## 🛠️ Technical Stack
 Built using the modern Python ecosystem for rapid deployment and high reliability:
 
-Language: Python 3.14
+* **Language:** Python 3.14
+* **Framework:** [Streamlit](https://streamlit.io/) (Agent-first UI)
+* **Data Engine:** [Pandas](https://pandas.pydata.org/) (Real-time budget calculations)
+* **Storage:** CSV-based Local Persistence (Ensures data stays on-device)
 
-Framework: Streamlit (Agent-first UI)
+---
 
-Data Engine: Pandas (Real-time budget calculations)
-
-Storage: CSV-based Local Persistence (Ensures data stays on-device)
-
-📦 Installation & Setup
+## 📦 Installation & Setup
 To run this project locally on your machine:
 
-Clone the repo:
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/Mrgaurav2k04/Flow-budget-App
 
-Bash
 
-git clone https://github.com/Mrgaurav2k04/Flow-budget-App
-
-Install Dependencies:
-
-Bash
-pip install -r requirements.txt
-
-Launch the App:
-
-Bash
-streamlit run cashma.py
-
-📱 Mobile APK Info
-
-This web app is wrapped into a native Android .apk for on-the-go logging.
-
-Live Link: https://your-app-link.streamlit.app
-
-Wrapper: WebIntoApp
 
 👨‍💻 About the Developer
 Developed by Gaurav Khandelwal,a CSE Student (Class of 2027) at Lovely Professional University. Focused on building functional, real-world tools using Python and AI agents.
