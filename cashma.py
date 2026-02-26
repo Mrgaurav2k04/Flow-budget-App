@@ -1,4 +1,10 @@
 
+import streamlit as st
+import pandas as pd
+from datetime import datetime
+from PIL import Image
+import os
+
 @st.cache_data
 def load_css():
     return """
@@ -16,12 +22,6 @@ def load_data_fast():
     if os.path.exists(DB_FILE):
         return pd.read_csv(DB_FILE).to_dict('records')
     return []
-import streamlit as st
-import pandas as pd
-from datetime import datetime
-from PIL import Image
-import os
-
 # --- LOAD ASSETS ---
 try:
     # Try to load the local App logo if available
@@ -245,4 +245,5 @@ if not df_trans.empty:
 
 st.write("---")
 st.caption("Flow (Cashma) v3.0 | Your Personal Bank & Budgeting App")
+
 
