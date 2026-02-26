@@ -26,16 +26,21 @@ To run this project locally on your machine:
 Clone the repo:
 
 Bash
-git clone https://github.com/YOUR_USERNAME/Flow-Budget-App.git
+
+git clone https://github.com/Mrgaurav2k04/Flow-budget-App
+
 Install Dependencies:
 
 Bash
 pip install -r requirements.txt
+
 Launch the App:
 
 Bash
 streamlit run cashma2.py
+
 📱 Mobile APK Info
+
 This web app is wrapped into a native Android .apk for on-the-go logging.
 
 Live Link: https://your-app-link.streamlit.app
@@ -43,4 +48,4 @@ Live Link: https://your-app-link.streamlit.app
 Wrapper: WebIntoApp
 
 👨‍💻 About the Developer
-Developed by a CSE Student (Class of 2027) at Lovely Professional University. Focused on building functional, real-world tools using Python and AI agents.
+Developed by Gaurav Khandelwal,a CSE Student (Class of 2027) at Lovely Professional University. Focused on building functional, real-world tools using Python and AI agents.
