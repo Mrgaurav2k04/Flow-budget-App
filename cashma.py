@@ -1,3 +1,21 @@
+
+@st.cache_data
+def load_css():
+    return """
+    <style>
+    /* Your CSS here - caching it prevents the 'flicker' on mobile */
+    .main { background-color: #050505; }
+    </style>
+    """
+
+st.markdown(load_css(), unsafe_allow_html=True)
+
+
+@st.cache_data
+def load_data_fast():
+    if os.path.exists(DB_FILE):
+        return pd.read_csv(DB_FILE).to_dict('records')
+    return []
 import streamlit as st
 import pandas as pd
 from datetime import datetime
@@ -227,3 +245,4 @@ if not df_trans.empty:
 
 st.write("---")
 st.caption("Flow (Cashma) v3.0 | Your Personal Bank & Budgeting App")
+
